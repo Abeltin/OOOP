@@ -6,10 +6,10 @@
 class File {
 public:
     File() {
-        std::cout << "File opened." << std::endl; // Сообщение при создании объекта
+        std::cout << "Файл открыт." << std::endl; // Сообщение при создании объекта
     }
     ~File() {
-        std::cout << "File closed." << std::endl; // Сообщение при удалении объекта
+        std::cout << "Файл закрыт." << std::endl; // Сообщение при удалении объекта
     }
 };
 
