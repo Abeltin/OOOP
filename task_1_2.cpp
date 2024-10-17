@@ -10,6 +10,6 @@ int main() {
     for(int i = 0; i < 5; i++) { // Проход по массиву и подсчет суммы
         sum += arr[i];
     }
-    std::cout << "Sum: " << sum << std::endl; // Вывод результата
+    std::cout << "Сумма: " << sum << std::endl; // Вывод результата
     return 0;
 }
