@@ -19,7 +19,7 @@ Number operator*(const Number& n1, const Number& n2) { // Определение
 int main() {
     Number n1(3), n2(4);
     Number n3 = n1 * n2;
-    std::cout << "Результат: " << (n1 * n2).value << std::endl;
+    printf("%d", n3);
     return 0;
 }
 
